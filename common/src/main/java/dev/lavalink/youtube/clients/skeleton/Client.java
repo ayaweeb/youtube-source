@@ -28,7 +28,7 @@ import static com.sedmelluq.discord.lavaplayer.tools.FriendlyException.Severity.
 public interface Client {
     String WATCH_URL = "https://www.youtube.com/watch?v=";
     String API_BASE_URL = "https://youtubei.googleapis.com/youtubei/v1";
-    String PLAYER_URL = "http://localhost:4500/proxy?url=" + URLEncoder.encode(API_BASE_URL + "/player?prettyPrint=false" , "UTF-8");
+    String PLAYER_URL = "http://localhost:4500/proxy?url=https%3A%2F%2Fyoutubei.googleapis.com%2Fyoutubei%2Fv1%2Fplayer%3FprettyPrint%3Dfalse";
     String SEARCH_URL = API_BASE_URL + "/search?prettyPrint=false";
     String NEXT_URL = API_BASE_URL + "/next?prettyPrint=false";
     String BROWSE_URL = API_BASE_URL + "/browse?prettyPrint=false";
