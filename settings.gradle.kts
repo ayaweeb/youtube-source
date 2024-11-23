@@ -26,9 +26,6 @@ dependencyResolutionManagement {
 
             plugin("lavalink-gradle-plugin", "dev.arbjerg.lavalink.gradle-plugin").version("1.0.15")
 
-            val mavenPublishPlugin = version("maven-publish-plugin", "0.25.3")
-            plugin("maven-publish", "com.vanniktech.maven.publish").versionRef(mavenPublishPlugin)
-            plugin("maven-publish-base", "com.vanniktech.maven.publish.base").versionRef(mavenPublishPlugin)
         }
     }
 }
